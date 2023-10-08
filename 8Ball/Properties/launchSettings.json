@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "8Ball (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "8Ball (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

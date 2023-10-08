@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="_8Ball.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_8Ball"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="8 Ball">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop/>
+    </Window.SystemBackdrop>
+
+    <Grid
+        Width="Auto" Height="400"
+        RowDefinitions="50, 50, 80, 50, 100"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top">
+        <Grid x:Name="EightballTitleBar"
+            Width="Auto" Height="50"
+            ColumnDefinitions="50, 1250"
+              HorizontalAlignment="Left">
+            <Image 
+                Source="Assets/Square50x50Logo.scale-100.png"
+                HorizontalAlignment="Left"
+                Width="24" Height="24"
+                Margin="10,0"/>
+            <TextBlock x:Name="TitleTextBlock" 
+               Text="8 Ball" 
+               Style="{StaticResource CaptionTextBlockStyle}"
+               Grid.Column="1"
+               VerticalAlignment="Center"/>
+        </Grid>
+
+        <TextBlock 
+            Grid.Row="1"
+            x:Name="Title" 
+            Text="Bazinga" 
+            Style="{StaticResource TitleTextBlockStyle}"
+            HorizontalAlignment="Center"/>
+        <TextBox
+            x:Name="Question"
+            Grid.Row="2"
+            Width="350" Height="45"
+            PlaceholderText="Ask a yes or no question"/>
+        <TextBlock 
+            Grid.Row="3"
+            x:Name="Fortune" 
+            Text=" " 
+            Style="{StaticResource BaseTextBlockStyle}"
+            FontFamily="Segoe UI"
+            FontSize="15"
+            HorizontalAlignment="Center"
+            Width="400" Height="50"
+            Margin="50,10,0,0"/>
+        <Grid
+            Grid.Row="4"
+            Width="600" Height="80"
+            ColumnDefinitions="300,300"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom">
+            <Button 
+                Grid.Column="0"
+                x:Name="Click"
+                Click="Clicker"
+                Content="Tell me"
+                Style="{StaticResource AccentButtonStyle}"
+                Width="240" Height="40"
+                Margin="50,0,0,0"
+                HorizontalAlignment="Center"/>
+            <Button 
+                Grid.Column="1"
+                x:Name="ClickExit"
+                Content="Info"
+                Width="240" Height="40"
+                Margin="0,0,50,0"
+                HorizontalAlignment="Center">
+                <Button.Flyout>
+                    <Flyout>
+                        <StackPanel>
+                            <TextBlock Style="{ThemeResource BaseTextBlockStyle}" Text="Made by Christopher-Marios Mamaloukas, with love." Margin="0,0,0,12" />
+                            <Button Click="GoToGithub">
+                                <Grid
+                                    ColumnDefinitions="25,60">
+                                    <Image Grid.Column="0" Source="Assets/CoolImages/gh_logo.png" Width="25" Height="25"/>
+                                    <TextBlock x:Name="ButtonText" Grid.Column="1" Text="Github" Style="{ThemeResource BaseTextBlockStyle}" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Grid>
+                            </Button>
+                        </StackPanel>
+                    </Flyout>
+                </Button.Flyout>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
