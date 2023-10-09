@@ -33,22 +33,37 @@
         RowDefinitions="50, 50, 80, 50, 100"
         HorizontalAlignment="Center"
         VerticalAlignment="Top">
-        <Grid x:Name="EightballTitleBar"
+        
+        <!-- Titlebar -->
+        <Grid x:Name="UpperPart"
             Width="Auto" Height="50"
-            ColumnDefinitions="50, 1250"
-              HorizontalAlignment="Left">
-            <Image 
-                Source="Assets/Square50x50Logo.scale-100.png"
-                HorizontalAlignment="Left"
-                Width="24" Height="24"
-                Margin="10,0"/>
-            <TextBlock x:Name="TitleTextBlock" 
-               Text="8 Ball" 
-               Style="{StaticResource CaptionTextBlockStyle}"
-               Grid.Column="1"
-               VerticalAlignment="Center"/>
+            ColumnDefinitions="50, 400"
+            HorizontalAlignment="Left">
+            <Button
+                Style="{StaticResource EllipsisButton}"
+                ToolTipService.ToolTip="Give Feedback"
+                Click="GoToFeedback">
+                <Image
+                    Grid.Column="0"
+                    Source="Assets/Square50x50Logo.scale-100.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="24" Height="24"/>
+            </Button>
+            <Grid 
+                Grid.Column="1"
+                x:Name="EightballTitleBar"
+                Width="400" Height="50"
+                HorizontalAlignment="Left">
+                <TextBlock x:Name="TitleTextBlock" 
+                   Text="8 Ball" 
+                   FontSize="12"
+                   Style="{StaticResource CaptionTextBlockStyle}"
+                   VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
 
+        <!-- Main content -->
         <TextBlock 
             Grid.Row="1"
             x:Name="Title" 

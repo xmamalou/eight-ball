@@ -165,6 +165,11 @@ namespace _8Ball
             player = new System.Media.SoundPlayer();
         }
 
+        private void GoToFeedback(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new ProcessStartInfo("https://github.com/xmamalou/eight-ball/issues/new/choose") { UseShellExecute = true });
+        }
+
         private void Clicker(object sender, RoutedEventArgs e)
         {
             if (Question.Text != "")
