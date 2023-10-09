@@ -6,7 +6,7 @@ This is a project I whipped up in a few days to play around with WinUI 3. I may 
 
 ## Building
 To build, you need Visual Studio (2022 recommended) with the Win UI library installed. 
-- **NOTE**: Even t
+- **NOTE**: Do not remove file `Assets/CoolImages/spymom.png`. Even though it's not used anywhere, the project fails to build if it's not in there. I messed up somewhere, and I cannot fix it for now
 
 ## Dependencies 
 - Microsoft.Windows.Sdk.Buildtools
