@@ -8,15 +8,15 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="ec5818db-1337-4184-8cbb-cd9d4af5e799"
-    Publisher="CN=mantis"
+    Name="44232Xmamalou.Magic8-BallToy"
+    Publisher="CN=24587EAE-236D-4881-A019-F6BABA8989E4"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ec5818db-1337-4184-8cbb-cd9d4af5e799" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="022a6927-3430-4044-bcbd-7db12746a30a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>8-Ball</DisplayName>
-    <PublisherDisplayName>Christopher-Marios Mamaloukas</PublisherDisplayName>
+    <DisplayName>Magic 8-Ball Toy</DisplayName>
+    <PublisherDisplayName>Xmamalou</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -34,7 +34,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="8 Ball"
+        DisplayName="Magic 8-Ball Toy"
         Description="For those who like to ask questions and receive meaningless answers"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
@@ -46,12 +46,11 @@
           <uap:Rotation Preference="landscapeFlipped"/>
           <uap:Rotation Preference="portrait"/>
           <uap:Rotation Preference="portraitFlipped"/></uap:InitialRotationPreference>
-        <uap:LockScreen BadgeLogo="Assets\LockScreenLogo.png" Notification="badge"/>
       </uap:VisualElements>
     </Application>
   </Applications>
 
-  <Capabilities>
-    <rescap:Capability Name="runFullTrust" />
-  </Capabilities>
+    <Capabilities>
+        <rescap:Capability Name="runFullTrust" />
+    </Capabilities>
 </Package>
