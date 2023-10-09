@@ -16,7 +16,7 @@ For the purposes of this Privacy Policy:
 
 - __Application__ (refered to either as "Application", "We", "Us" or "Our") refers to "Magic 8-Ball Toy", the software this Privacy Policy concerns.
 
-- __You__ ("You", "Your", "Yours", "Yourself" or "User") means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- __You__ ("You", "Your", "Yours", "Yourself" or "User") means the individual accessing or using the Application, or any other legal entity accessing or using the Application. 
 
 - __Source__ refers to the source code of this Application, which is hosted by third-party services.
 
@@ -59,7 +59,7 @@ We may share Your information in the following situations:
 
 ## Links to Other Websites
 
-Our Application can link to websites that are not operated by Us. If You are transferred to a third-party website, We strongly advise You to review the Privacy Policy of it.
+Our Application can link to websites that are not operated by Us. If You are transferred to a third-party website, We strongly advise You to review the privacy policy of it.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services. We are not affiliated or sponsored by the linked third-party sites.
 
