@@ -73,7 +73,7 @@
         <TextBox
             x:Name="Question"
             Grid.Row="2"
-            Width="350" Height="45"
+            Width="500" Height="40"
             PlaceholderText="Ask a yes or no question"/>
         <TextBlock 
             Grid.Row="3"
@@ -83,6 +83,7 @@
             FontFamily="Segoe UI"
             FontSize="15"
             HorizontalAlignment="Center"
+            VerticalAlignment="Center"
             Width="400" Height="50"
             Margin="50,10,0,0"/>
         <Grid
@@ -98,14 +99,14 @@
                 Content="Tell me"
                 Style="{StaticResource AccentButtonStyle}"
                 Width="240" Height="40"
-                Margin="50,0,0,0"
+                Margin="20,0,0,0"
                 HorizontalAlignment="Center"/>
             <Button 
                 Grid.Column="1"
                 x:Name="ClickExit"
                 Content="Info"
                 Width="240" Height="40"
-                Margin="0,0,50,0"
+                Margin="0,0,20,0"
                 HorizontalAlignment="Center">
                 <Button.Flyout>
                     <Flyout>

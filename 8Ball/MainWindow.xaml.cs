@@ -178,10 +178,38 @@ namespace _8Ball
 
                 int choice = 0;
 
-                weightToNegative += 2;
-                if (weightToNegative > 80 / (weightToNeutral + 1))
+                /*
+                 * The game is rigged.
+                 * 
+                 * Every time the user asks for an answer, the 
+                 * app is more likely to answer negatively
+                 *
+                 * Initially, the chance of getting a negative 
+                 * answer is 20%
+                 * 
+                 * However, if the probability of having a negative
+                 * answer exceeds 100%, then the user will receive 
+                 * a neutral answer.
+                 * 
+                 * In the meantime, the app keeps track of how many 
+                 * neutral answers there have been given (in other words,
+                 * how many "cycles" there have been). The more cycles,
+                 * the faster the next cycle will be (making negative
+                 * answers more likely as well), until the user receives
+                 * no more but neutral answers.
+                 * 
+                 * The app, however, will always give out a positive answer
+                 * in any question that contains "Rick roll" and open 
+                 * "Never Gonna Give You Up" in a browser (Unless there is 
+                 * an exception, in which case the app just prints the song line). 
+                 * Note that any such answer still counts in shifting the 
+                 * probabilities of the answers.
+                 */
+
+                weightToNegative += 5 + weightToNeutral;
+                if (weightToNegative > 80)
                 {
-                    weightToNeutral++;
+                    weightToNeutral += 5;
                     weightToNegative = 0;
                     choice = 2;
                     Fortune.Foreground = new SolidColorBrush(Colors.Gray);
@@ -200,14 +228,62 @@ namespace _8Ball
 
                 var str = new StringBuilder();
                 str.Append("Answer: ");
+
                 int counter = rnd.Next(0, answers[choice].Count - 1);
-                str.Append($" {answers[choice][counter]}");
 
                 if (Question.Text.IndexOf("Rick Roll", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
-                    Fortune.Foreground = new SolidColorBrush(Colors.Yellow);
-                    str = new StringBuilder("Answer: Never gonna give you up, never gonna let you down, never gonna run around and desert you!");
+                    try
+                    {
+                        System.Diagnostics.Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=dQw4w9WgXcQ") { UseShellExecute = true });
+                        choice = 0;
+                        Fortune.Foreground = new SolidColorBrush(Colors.Green);
+                    }
+                    catch (Win32Exception)
+                    {
+                        Fortune.Foreground = new SolidColorBrush(Colors.Yellow);
+                        str.Append("Answer: Never gonna give you up, never gonna let you down, never gonna run around and desert you!");
+                    }
                 }
+                else if (Question.Text.IndexOf("Is it Wednesday", StringComparison.OrdinalIgnoreCase) >= 0 )
+                {
+                    var time = DateTime.Now;
+                    if(time.DayOfWeek == DayOfWeek.Wednesday)
+                    {
+                        System.Diagnostics.Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=du-TY1GUFGk") { UseShellExecute = true });
+                        Fortune.Foreground = new SolidColorBrush(Colors.Green);
+                        str = new StringBuilder("Answer: It's Wednesday, my dudes.");
+                    }
+                    else
+                    {
+                        Fortune.Foreground = new SolidColorBrush(Colors.Red);
+                        str.Append("It's ");
+                        switch(time.DayOfWeek)
+                        {
+                            case DayOfWeek.Monday:
+                                str.Append("Monday");
+                                break;
+                            case DayOfWeek.Tuesday:
+                                str.Append("Tuesday");
+                                break;
+                            case DayOfWeek.Thursday:
+                                str.Append("Thursday");
+                                break;
+                            case DayOfWeek.Friday:
+                                str.Append("Friday");
+                                break;
+                            case DayOfWeek.Saturday:
+                                str.Append("Saturday");
+                                break;
+                            case DayOfWeek.Sunday:
+                                str.Append("Sunday");
+                                break;
+                        }
+                        str.Append(", you idiot!");
+                    }
+                }
+                else
+                    str.Append($" {answers[choice][counter]}");
 
                 Fortune.Text = str.ToString();
                 Fortune.FontStyle = Windows.UI.Text.FontStyle.Oblique;

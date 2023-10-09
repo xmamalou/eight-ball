@@ -49,7 +49,7 @@ namespace _8Ball
         {
             m_window = new MainWindow();
             m_window.ExtendsContentIntoTitleBar = true;
-            m_window.AppWindow.MoveAndResize(new Windows.Graphics.RectInt32(200, 200, 800, 500));
+            m_window.AppWindow.MoveAndResize(new Windows.Graphics.RectInt32(200, 200, 600, 350));
 
             var presenter = m_window.AppWindow.Presenter as OverlappedPresenter;
             presenter.IsResizable = false;
