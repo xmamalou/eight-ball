@@ -52,10 +52,10 @@ We may use Personal Data for the following purposes:
 - __To contact You:__ to contact You, in case you have opened any Issues, regarding anything concerning Your Issue.
 - __To manage Your requests:__ to attend and manage Your requests to Us made by opening Issues.
 
-We may share Your personal information in the following situations:
+We may share Your information in the following situations:
 
 - __With other users:__ when You share personal information or otherwise interact with other users via the third-party services hosting the Source of this Application
-- __With Your consent__: We may disclose Your account name in the third
+- __With Your consent__: We may disclose Your account name in the third-party sites hosting the Source of this Application to refer to any of your bug reports or feature requests
 
 ## Links to Other Websites
 
