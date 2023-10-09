@@ -15,8 +15,8 @@
   <mp:PhoneIdentity PhoneProductId="ec5818db-1337-4184-8cbb-cd9d4af5e799" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>8Ball</DisplayName>
-    <PublisherDisplayName>mantis</PublisherDisplayName>
+    <DisplayName>8-Ball</DisplayName>
+    <PublisherDisplayName>Christopher-Marios Mamaloukas</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -35,12 +35,18 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="8 Ball"
-        Description="Ask questions and receive answers"
+        Description="For those who like to ask questions and receive meaningless answers"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\Square89x89Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png"  BackgroundColor="transparent"/>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/>
+          <uap:Rotation Preference="landscapeFlipped"/>
+          <uap:Rotation Preference="portrait"/>
+          <uap:Rotation Preference="portraitFlipped"/></uap:InitialRotationPreference>
+        <uap:LockScreen BadgeLogo="Assets\LockScreenLogo.png" Notification="badge"/>
       </uap:VisualElements>
     </Application>
   </Applications>
