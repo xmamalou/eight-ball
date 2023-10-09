@@ -54,7 +54,7 @@ We may use Personal Data for the following purposes:
 
 We may share Your information in the following situations:
 
-- __With other users:__ when You share personal information or otherwise interact with other users via the third-party services hosting the Source of this Application
+- __With other users:__ when You share information or otherwise interact with other users via the third-party services hosting the Source of this Application
 - __With Your consent__: We may disclose Your account name in the third-party sites hosting the Source of this Application to refer to any of your bug reports or feature requests
 
 ## Links to Other Websites
