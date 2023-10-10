@@ -32,7 +32,7 @@ With exception to the cases mentioned below, the Application does not collect an
 
 #### Usage Data
 
-The Application does not directly collect any information concerning You or Your usage of the Application. However, the Application uses certain Microsoft services, such as the Microsoft AppCenter and the Microsoft PartnerCenter to collect usage data. To learn more about how data is collected, used, and disclosed by Microsoft and its subsidiaries, please review the Microsoft Privacy Policy Statement available here: https://privacy.microsoft.com/privacystatement. Any information collected from the afore mentioned Microsoft services is not shared with third-parties
+The Application does not directly collect any information concerning You or Your usage of the Application. Your input to the Application and any other interaction that you may have directly with the Application is not logged by Us. However, the Application uses certain Microsoft services, such as the Microsoft AppCenter and the Microsoft PartnerCenter to collect usage data. To learn more about how data is collected, used, and disclosed by Microsoft and its subsidiaries, please review the Microsoft Privacy Policy Statement available here: https://privacy.microsoft.com/privacystatement. Any information collected from the afore mentioned Microsoft services is not shared with third-parties
 
 #### Feedback Data
 
