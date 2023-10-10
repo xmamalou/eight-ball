@@ -111,7 +111,7 @@
                 <Button.Flyout>
                     <Flyout>
                         <StackPanel>
-                            <TextBlock Style="{ThemeResource BaseTextBlockStyle}" Text="Made by Christopher-Marios Mamaloukas, with love." Margin="0,0,0,12" />
+                            <TextBlock Style="{ThemeResource BaseTextBlockStyle}" Text="Made by Mantis (Christopher Mamaloukas), with love." Margin="0,0,0,12" />
                             <Button Click="GoToGithub">
                                 <Grid
                                     ColumnDefinitions="25,60">
