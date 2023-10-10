@@ -40,7 +40,7 @@ In addition to the above, We use the following third-party services to host the 
 
 - Github
 
-and with the intent to offer You a feedback mechanism for the Application, through the use of Issues. By opening a new Issue, You agree to sharing with Us any information contained in the Issue. By opening an Issue, you also agree to allow Us to communicate with You within the third-party services and to share with Us your account name in these third-party services. You also agree that any information contained in the Issue will be accessible to the public and that You assume full responsibility for any data shared, regardless of whether or not they can be used to personally identify You. By opening Issues, you also agree to the Privacy Policies of the third party services hosting the Source:
+and with the intent to offer You a feedback mechanism for the Application, through the use of Issues. By opening a new Issue, You agree to sharing with Us any information contained in the Issue. By opening an Issue, you also agree to allow Us to communicate with You within the third-party services and to share with Us your account profile in these third-party services. You also agree that any information contained in the Issue will be accessible to the public and that You assume full responsibility for any data shared, regardless of whether or not they can be used to personally identify You. By opening Issues, you also agree to the Privacy Policies of the third party services hosting the Source:
 
 - Github Privacy Policy: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 
