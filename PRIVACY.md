@@ -16,7 +16,7 @@ For the purposes of this Privacy Policy:
 
 - __Application__ (refered to either as "Application", "We", "Us" or "Our") refers to "Magic 8-Ball Toy", the software this Privacy Policy concerns.
 
-- __You__ ("You", "Your", "Yours", "Yourself" or "User") means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- __You__ ("You", "Your", "Yours", "Yourself" or "User") means the individual accessing or using the Application, or any other legal entity accessing or using the Application. 
 
 - __Source__ refers to the source code of this Application, which is hosted by third-party services.
 
@@ -32,7 +32,7 @@ With exception to the cases mentioned below, the Application does not collect an
 
 #### Usage Data
 
-The Application does not directly collect any information concerning You or Your usage of the Application. However, the Application uses certain Microsoft services, such as the Microsoft AppCenter and the Microsoft PartnerCenter to collect usage data. To learn more about how data is collected, used, and disclosed by Microsoft and its subsidiaries, please review the Microsoft Privacy Policy Statement available here: https://privacy.microsoft.com/privacystatement. Any information collected from the afore mentioned Microsoft services are not shared with third-parties
+The Application does not directly collect any information concerning You or Your usage of the Application. Your input to the Application and any other interaction that you may have directly with the Application is not logged by Us. However, the Application uses certain Microsoft services, such as the Microsoft AppCenter and the Microsoft PartnerCenter which collect usage data. To learn more about how data is collected, used, and disclosed by Microsoft and its subsidiaries, please review the Microsoft Privacy Policy Statement available here: https://privacy.microsoft.com/privacystatement. Any information collected from the afore mentioned Microsoft services is not shared with third-parties
 
 #### Feedback Data
 
@@ -40,7 +40,7 @@ In addition to the above, We use the following third-party services to host the 
 
 - Github
 
-and with the intent to offer You a feedback mechanism for the Application, through the use of Issues. By opening a new Issue, You agree to sharing with Us any information contained in the Issue. By opening an Issue, you also agree to allow Us to communicate with You within the third-party services and to share with Us your account name in these third-party services. You also agree that any information contained in the Issue will be accessible to the public and that You assume full responsibility for any data shared, regardless of whether or not they can be used to personally identify You. By opening Issues, you also agree to the Privacy Policies of the third party services hosting the Source:
+and with the intent to offer You a feedback mechanism for the Application, through the use of Issues. By opening a new Issue, You agree to sharing with Us any information contained in the Issue. By opening an Issue, you also agree to allow Us to communicate with You within the third-party services and to share with Us your account profile in these third-party services. You also agree that any information contained in the Issue will be accessible to the public and that You assume full responsibility for any data shared, regardless of whether or not they can be used to personally identify You. By opening Issues, you also agree to the Privacy Policies of the third party services hosting the Source:
 
 - Github Privacy Policy: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 
@@ -52,14 +52,14 @@ We may use Personal Data for the following purposes:
 - __To contact You:__ to contact You, in case you have opened any Issues, regarding anything concerning Your Issue.
 - __To manage Your requests:__ to attend and manage Your requests to Us made by opening Issues.
 
-We may share Your personal information in the following situations:
+We may share Your information in the following situations:
 
-- __With other users:__ when You share personal information or otherwise interact with other users via the third-party services hosting the Source of this Application
-- __With Your consent__: We may disclose Your account name in the third
+- __With other users:__ when You share information or otherwise interact with other users via the third-party services hosting the Source of this Application
+- __With Your consent__: We may disclose Your account name in the third-party sites hosting the Source of this Application to refer to any of your bug reports or feature requests
 
 ## Links to Other Websites
 
-Our Application can link to websites that are not operated by Us. If You are transferred to a third-party website, We strongly advise You to review the Privacy Policy of it.
+Our Application can link to websites that are not operated by Us. If You are transferred to a third-party website, We strongly advise You to review the privacy policy of it.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services. We are not affiliated or sponsored by the linked third-party sites.
 
