@@ -1,6 +1,6 @@
 ![screenshot](Promo/promo5.png "Image")
 
-# 8-Ball
+# Magic 8-Ball Toy
 Will I get married? Will I become famous? Will I conquer the universe? These are some of the many questions you can ask the magic 8-ball and it will answer your worries! Just type and click the button!
 
 ## About the project
